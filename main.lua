@@ -12,7 +12,7 @@ getgenv().Alts = {
     123456789,
 }
 
---// Main code, made by remorse
+--// Main code, made by Hexxed#0420
 
 if not game:IsLoaded() then
     game.Loaded:Wait()
@@ -78,9 +78,9 @@ if not ishost then
 end
 
 --// Alt control stuff
-local PackageLoader = "https://raw.githubusercontent.com/batlilman/deez/main/cmds/"
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/batlilman/deez/main/module.lua"))() end)
-pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/batlilman/deez/main/anticheat.lua"))() end)
+local PackageLoader = "https://raw.githubusercontent.com/66wasnthere/deez/main/cmds/"
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/deez/main/module.lua"))() end)
+pcall(function() loadstring(game:HttpGet("https://raw.githubusercontent.com/66wasnthere/deez/main/anticheat.lua"))() end)
 local player = game:service"Players".LocalPlayer
 local LoadedPackages, LoadedFunctions = {}, {}
 
