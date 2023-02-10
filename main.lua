@@ -1,5 +1,3 @@
---// Configurations
-
 getgenv().Settings = {
     host = 123456789,
     prefix = '/',
